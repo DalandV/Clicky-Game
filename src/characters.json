@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "All Might",
+        "url": "https://vignette.wikia.nocookie.net/bokunoheroacademia/images/0/0a/All_Might_Portrait.png/revision/latest/scale-to-width-down/135?cb=20160619041830"
+    },
+    {
+        "id": 2,
+        "name": "Deku",
+        "url": "https://vignette.wikia.nocookie.net/bokunoheroacademia/images/2/25/Izuku_Midoriya_Portrait.png/revision/latest/scale-to-width-down/135?cb=20160619050117"
+    },
+    {
+        "id": 3,
+        "name": "Bakugo",
+        "url": "https://vignette.wikia.nocookie.net/bokunoheroacademia/images/c/cd/Katsuki_Bakugo_Portrait.png/revision/latest/scale-to-width-down/135?cb=20160619050033"
+    },
+    {
+        "id": 4,
+        "name": "Uraraka",
+        "url": "https://vignette.wikia.nocookie.net/bokunoheroacademia/images/7/78/Ochaco_Uraraka_Portrait.png/revision/latest/scale-to-width-down/135?cb=20160619044306"
+    },
+    {
+        "id": 5,
+        "name": "Iida",
+        "url": "https://vignette.wikia.nocookie.net/bokunoheroacademia/images/7/7d/Tenya_Iida_Portrait.png/revision/latest/scale-to-width-down/135?cb=20160619044125"
+    },
+    {
+        "id": 6,
+        "name": "Todoroki",
+        "url": "https://vignette.wikia.nocookie.net/bokunoheroacademia/images/5/57/Shouto_Todoroki_Portrait.png/revision/latest/scale-to-width-down/135?cb=20160619045658"
+    }
+]

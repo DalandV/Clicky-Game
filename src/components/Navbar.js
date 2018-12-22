@@ -1,7 +1,7 @@
 import React from "react";
 
-const score = 0
-const topScore = 0
+let score = 0
+let topScore = 0
 
 const Navbar = () => (
     <div>
