@@ -18,8 +18,11 @@ class App extends React.Component {
     console.log(name);
     if (this.state.clicked.indexOf(character) < 0) {
       this.state.clicked.push(character);
-      this.setState({ score: this.state.score + 1 });
-      this.setState({ topScore: this.state.topScore + 1 });
+      this.setState({ score: this.state.score + 1 }, () => {
+        if (this.state.score > this.state.topScore) {
+          this.setState({ topScore: this.state.topScore + 1 });
+        }
+      });
       this.setState({
         characters: this.state.characters.sort(function(a, b) {
           return 0.5 - Math.random();
