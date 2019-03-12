@@ -7,7 +7,6 @@ import characters from "./characters.json";
 import Footer from "./components/Footer";
 
 class App extends React.Component {
-
   state = {
     characters,
     clicked: [],
@@ -16,21 +15,24 @@ class App extends React.Component {
   };
 
   handleClick = (name, character) => {
-    console.log(name)
+    console.log(name);
     if (this.state.clicked.indexOf(character) < 0) {
-      this.state.clicked.push(character)
-      this.setState({ score: this.state.score + 1 })
-      this.setState({ topScore: this.state.topScore + 1 })
+      this.state.clicked.push(character);
+      this.setState({ score: this.state.score + 1 });
+      this.setState({ topScore: this.state.topScore + 1 });
       this.setState({
-        characters: this.state.characters.sort(function (a, b) { return 0.5 - Math.random() })
+        characters: this.state.characters.sort(function(a, b) {
+          return 0.5 - Math.random();
+        })
       });
-      console.log(this.state.clicked)
-    }
-    else {
+      console.log(this.state.clicked);
+    } else {
       this.setState({ clicked: [] });
       this.setState({ score: 0 });
       this.setState({
-        characters: this.state.characters.sort(function (a, b) { return 0.5 - Math.random() })
+        characters: this.state.characters.sort(function(a, b) {
+          return 0.5 - Math.random();
+        })
       });
       console.log(this.state.clicked);
     }
@@ -55,7 +57,7 @@ class App extends React.Component {
         </GameSection>
         <Footer />
       </div>
-    )
+    );
   }
 }
 export default App;
